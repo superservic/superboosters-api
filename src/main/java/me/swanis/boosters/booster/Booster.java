@@ -1,8 +1,9 @@
 package me.swanis.boosters.booster;
 
+import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 
-public interface Booster {
+public interface Booster extends Listener {
 
     boolean isEnabled(); //If the booster is enabled or not
 
